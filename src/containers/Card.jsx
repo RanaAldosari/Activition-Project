@@ -49,7 +49,7 @@ function Card() {
       </div>
       {/* sm-screen */}
 <div className='flex gap-20 p-5 lg:hidden'>
-<h1 className='pl-35 text-center text-[1.2rem] font-bold'>  ALL NEW </h1>
+<h1 className='pl-30 text-center text-[1rem] font-bold'>  ALL NEW </h1>
 <h1 className='font-bold text-[1.5rem]'> <IoMdArrowDropdown /></h1>
 </div>
       <hr className="border-gray-700 mb-6" />
