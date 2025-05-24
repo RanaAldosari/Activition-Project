@@ -1,0 +1,37 @@
+.btn-hover:hover{
+background-color: #0769afab;
+border-color: #0768af;
+border: 2px solid #0768af;
+}
+.btn-hover2{
+ background-color: #0769afab;
+border-color: #0768af;
+border: 1.5px solid #0768af;
+}
+
+.text-hover{
+background-color: #0769afab;
+height: 10vh;
+border-bottom: 2.3px solid #0768af;
+}
+.text-hover:hover{
+    background-color: #0769afab;
+border-bottom: 1.5px solid #0768af;
+}
+.btn-hover2:hover{
+ background-color: #1b76b8aa;
+border: 2px solid #0768af;
+}
+.text-color{
+    color:#0768af;
+}
+.hover{
+    background-color: rgba(216, 210, 210, 0.093);
+}
+.bg-color{
+    background-color: rgba(17, 17, 17, 0.87);
+}
+.explore-hover:hover{
+     background-color: #0769afab;
+
+}
