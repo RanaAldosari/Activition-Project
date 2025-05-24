@@ -82,7 +82,7 @@ function Footerpage() {
    </div>
 <div className='flex flex-col justify-center items-center gap-2 pt-5 lg:pt-0'>
     <img className='w-6' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/250px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png" alt="" />
-    <img  className="w-40" src="public\activision-logo (1).svg" alt="" />
+    <img  className="w-40" src="/activision-logo (1).svg" alt="" />
     <h5 className='text-xs pb-20'>Copyright 2025 Activision Publishing, Inc.</h5>
 </div>
    </div>

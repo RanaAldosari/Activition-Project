@@ -50,15 +50,15 @@ function CarrerPage() {
 <div className='bg-blue-300 w-full h-[7vh] text-white text-[0.7rem] sm:text-sm px-5 sm:px-10 flex items-center justify-center sm:justify-start text-center sm:text-left'>NEED HELP RECOVERING A HACKED ACTIVISION ACCOUNT?  <a href="http://" target="_blank" rel="noopener noreferrer" className='font-bold underline ml-2'>LEARN MORE</a> </div>  
 {/* content */}
   <div className='flex flex-col gap-5 p-5 sm:p-10 lg:p-20'>
-    <img className='w-50 lg:w-60' src="public/BO6-S3R-logo-lockup.png" />
+    <img className='w-50 lg:w-60' src="/BO6-S3R-logo-lockup.png" />
 
     <div className='flex items-center gap-3'>
-      <img className='w-8' src="public/icon_game.png"/>
+      <img className='w-8' src="/icon_game.png"/>
       <h1 className='text-white text-[0.7rem]  hover:delay-75 duration-700 hover:scale-105 cursor-pointer'>CHECK OUT WHAT'S NEW IN SEASON 03 RELOADED</h1>
     </div>
 
     <div className='flex items-center gap-3'>
-      <img className='w-8' src="public/icon_support.png" />
+      <img className='w-8' src="/icon_support.png" />
       <h1 className='text-white text-[0.7rem]  hover:delay-75 duration-700 hover:scale-105 cursor-pointer'>BROWSE THE SUPPORT PAGE</h1>
     </div>
   </div>
