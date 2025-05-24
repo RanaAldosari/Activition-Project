@@ -13,7 +13,7 @@ function PannerHome() {
     </div>
     {/* img */}
     <div>
-        <img src="public\support-banner-v3.jpg" alt="section-image" />
+        <img src="/support-banner-v3.jpg" alt="section-image" />
     </div>
     <hr />
    </div>

@@ -55,25 +55,25 @@ const exploeImg=[
 
 const studioImg=[
     {
-        img:'public/logo_treyarch.png'
+        img:'/logo_treyarch.png'
     },
       {
-        img:'public/logo_infinityward.png'
+        img:'/logo_infinityward.png'
     },
       {
-        img:'public/logo_highmoon-studios.png'
+        img:'/logo_highmoon-studios.png'
     },
       {
         img:'https://cdn.phenompeople.com/CareerConnectResources/ACPUUS/images/1691576477943_logo_sledgehammer-1666639102046.png'
     },
       {
-        img:'public/logo_raven.png'
+        img:'/logo_raven.png'
     },
       {
-        img:'public/logo_atvi-shanghai-studio.png'
+        img:'/logo_atvi-shanghai-studio.png'
     },
       {
-        img:'public/logo_demonware.png'
+        img:'/logo_demonware.png'
     },
       {
         img:'https://cdn.phenompeople.com/CareerConnectResources/ACPUUS/images/1691577163163_ss-logo-labeled-1670261765680.png'

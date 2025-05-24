@@ -11,7 +11,7 @@ function Headerpage() {
 
 {/* content */}
   <div className="flex flex-col justify-center items-center relative lg:items-start lg:tex-left  h-full px-10 text-white">
-<img src="public/black-ops-6-full-logo.png" className="mt-10 lg:mt-0 pb-5 w-55 lg:w-60 lg:80 " />
+<img src="/black-ops-6-full-logo.png" className="mt-10 lg:mt-0 pb-5 w-55 lg:w-60 lg:80 " />
 <p className="text-md lg:text-lg mb-2">Forced to go rogue. Hunted from within.</p>
 <p className="text-md lg:text-2xl font-bold mb-6">This is Black Ops 6.</p>
 <div className="flex flex-col gap-2 lg:gap-5 lg:flex-row">

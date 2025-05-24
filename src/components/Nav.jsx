@@ -19,7 +19,7 @@ function Nav() {
  px-10 py-2 items-center text-white '>
       <div className='flex justify-around gap-8'>
         <div>
-          <img className='w-20' src="public\activision-logo (1).svg" alt="" />
+          <img className='w-20' src="/activision-logo (1).svg" alt="" />
         </div>
         <div className='hidden lg:flex gap-7 text-[.7rem] font-medium items-center text-gray-400 '>
       <Link to="/">

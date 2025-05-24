@@ -13,7 +13,7 @@ const cardsSupport=[
     },
     {
         title:'CALL OF DUTY: WARZONE',
-        img:'public/WZV-home-tile.jpg'
+        img:'/WZV-home-tile.jpg'
     },
     {
         title:'CALL OF DUTY: MOBILE',
@@ -21,11 +21,11 @@ const cardsSupport=[
     },
     {
         title:'TONY HAWK PRO SKATER 3 + 4',
-        img:'public/THPS34-home-tile.png'
+        img:'/THPS34-home-tile.png'
     },
     {
         title:'CALL OF DUTY: MODERN WARFARE III',
-        img:'public/MWIII-home-tile-1c.png'
+        img:'/MWIII-home-tile-1c.png'
     },
     {
         title:'CALL OF DUTY: MODERN WARFARE II',
@@ -33,11 +33,11 @@ const cardsSupport=[
     },
     {
         title:'CALL OF DUTY: MODERN WARFARE',
-        img:'public/MW_module_001.jpg'
+        img:'/MW_module_001.jpg'
     },
     {
         title:'CALL OF DUTY: BLACK OPS COLD WAR',
-        img:'public/cold-war-home-page-tile.jpg'
+        img:'/cold-war-home-page-tile.jpg'
     }
 ]
 

@@ -4,7 +4,7 @@ function BannerTHome() {
   return (
     <>
    <div className='relative w-full '>
-<img className='absolute' src="public\Screenshot 2025-05-24 184718.png" alt="" />
+<img className='absolute' src="/Screenshot 2025-05-24 184718.png" alt="" />
 <div className='absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/100 h-[100%] lg:h-[100]'></div>
 <div className=' relative flex flex-col lg:justify-between lg:flex-row lg:p-10 text-white '>
 {/* content */}

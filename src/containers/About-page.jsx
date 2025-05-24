@@ -4,27 +4,27 @@ function Aboutpage() {
 
     const leaderTeam=[
         {
-        profileImg:'public/rob-kostich.jpg',
+        profileImg:'/rob-kostich.jpg',
         name:'Rob Kostich',
         job:'President'
     },
     {
- profileImg:'public/josh-taub.jpg',
+ profileImg:'/josh-taub.jpg',
         name:'Josh Taub',
         job:'Chief Operating Officer'
     },
         {
- profileImg:'public/suzie-carr.jpg',
+ profileImg:'/suzie-carr.jpg',
         name:'Suzie Carr',
         job:'Chief People Officer'
     },
         {
- profileImg:'public/terri-durham.jpg',
+ profileImg:'/terri-durham.jpg',
         name:'Terri Durham',
         job:'SVP & General Counsel'
     },
         {
- profileImg:'public/dave-stohl.jpg',
+ profileImg:'/dave-stohl.jpg',
         name:'David Stohl',
         job:'Head of Development, Call of Duty'
     },
@@ -34,17 +34,17 @@ function Aboutpage() {
         job:'Head of Creative, Call of Duty'
     },
         {
- profileImg:'public/tyler-bahl.jpg',
+ profileImg:'/tyler-bahl.jpg',
         name:'Tyler Bahl',
         job:'SVP, Head of Marketing'
     },
         {
- profileImg:'public/natasha.jpg',
+ profileImg:'/natasha.jpg',
         name:'Natasha Tatarchuk',
         job:'SVP, Chief Technology Officer'
     },
         {
- profileImg:'public/matt-cox.jpg',
+ profileImg:'/matt-cox.jpg',
         name:'Matt Cox',
         job:'GM, Call of Duty'
     },
@@ -53,42 +53,42 @@ function Aboutpage() {
 
 const games=[
     {
-        gameImg:'public/gameImg-AboutPG/Screenshot 2025-05-23 212444.png',
+        gameImg:'/gameImg-AboutPG/Screenshot 2025-05-23 212444.png',
         gameTitle:'Call of Duty Black Ops 6',
         gameclass:'MATRUE 17+'
     },
     {
-        gameImg:'public/gameImg-AboutPG/Screenshot 2025-05-23 212502.png',
+        gameImg:'/gameImg-AboutPG/Screenshot 2025-05-23 212502.png',
         gameTitle:'Call of Duty®: Warzone',
         gameclass:'MATRUE 17+'
     },
      {
-        gameImg:'public/gameImg-AboutPG/Screenshot 2025-05-23 212520.png',
+        gameImg:'/gameImg-AboutPG/Screenshot 2025-05-23 212520.png',
         gameTitle:'Call of Duty Modern Warfare III',
         gameclass:'MATRUE 17+'
     },
      {
-        gameImg:'public/gameImg-AboutPG/Screenshot 2025-05-23 212531.png',
+        gameImg:'/gameImg-AboutPG/Screenshot 2025-05-23 212531.png',
         gameTitle:'Crash Team Rumble',
         gameclass:'EVERYONE 10+'
     },
      {
-        gameImg:'public/gameImg-AboutPG/Screenshot 2025-05-23 212539.png',
+        gameImg:'/gameImg-AboutPG/Screenshot 2025-05-23 212539.png',
         gameTitle:'Tony Hawk™ Pro Skater™ 1 + 2',
         gameclass:'TEEN'
     },
      {
-        gameImg:'public/gameImg-AboutPG/Screenshot 2025-05-23 212554.png',
+        gameImg:'/gameImg-AboutPG/Screenshot 2025-05-23 212554.png',
         gameTitle:'Call of Duty®: Mobile',
         gameclass:'MATRUE 17+'
     },
      {
-        gameImg:'public/gameImg-AboutPG/Screenshot 2025-05-23 212610.png',
+        gameImg:'/gameImg-AboutPG/Screenshot 2025-05-23 212610.png',
         gameTitle:'Sekiro®: Shadows Die Twice',
         gameclass:'MATRUE 17+'
     },
      {
-        gameImg:'public/gameImg-AboutPG/Screenshot 2025-05-23 212619.png',
+        gameImg:'/gameImg-AboutPG/Screenshot 2025-05-23 212619.png',
         gameTitle:'SPYRO® Reignited Trilogy',
         gameclass:'EVERYONE 10+'
     }
@@ -98,7 +98,7 @@ const games=[
    <>
    <div className='bg-black  text-white'>
     <div className='flex pt-30 p-10 justify-center lg:p-30 bg-gradient-to-b from-white/15'>
-        <img className='w-full lg:w-220 mask-t-from-50%' src="public\Screenshot_2025-05-23_191809-removebg-preview.png" alt="" />
+        <img className='w-full lg:w-220 mask-t-from-50%' src="/Screenshot_2025-05-23_191809-removebg-preview.png" alt="" />
     </div>
 
     {/* content */}
@@ -123,7 +123,7 @@ const games=[
    <div className='px-10 flex flex-col gap-2 text-center justify-center items-center'>
         <h1  className='font-bold text-[1.5rem]'>OUR VALUES</h1>
      <hr className='border border-gray-100 w-full' />
-        <img className='lg:px-10' src="public\atvi-values.png" alt="" />
+        <img className='lg:px-10' src="/atvi-values.png" alt="" />
          <button className='border rounded-4xl px-10 py-2 btn-hover2 '>LEARN MORE</button>
     </div>
 
@@ -160,7 +160,7 @@ const games=[
     <h1 className='font-bold text-[1.5rem]'>OUR STUDIOS</h1>
     <hr />
     <div className='grid grid-cols-2 text-center px-5 md:grid-cols-3 gap-6 place-items-center '>
-    <img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500' src="public\logo_treyarch.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_infinityward.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_highmoon-studios.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo_beenox.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo_sledgehammer.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_raven.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo-toysforbob.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_atvi-shanghai-studio.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_demonware.png" alt="" />
+    <img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500' src="/logo_treyarch.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_infinityward.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_highmoon-studios.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo_beenox.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo_sledgehammer.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_raven.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo-toysforbob.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_atvi-shanghai-studio.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="public\logo_demonware.png" alt="" />
     </div>
 </div>
 </div>
