@@ -42,10 +42,10 @@ function Card() {
       
       <div className=' hidden lg:flex flex-wrap justify-center gap-4 mb-1'>
       <h1 className='px-4 py-1 text-sm font-bold text-white text-hover flex items-center' >ALL NEWS</h1>
-   <img className='w-20 grayscale-100 hover:grayscale-0 hover:bg-[rgba(7,105,175,0.67)] hover:border-b-2 hover:border-[rgba(7,105,175,0.67)] px-2 duration-500  cursor-pointer' src="public/activision-logo (1).svg"  />
-        <img className='w-20  grayscale-100 hover:text-hover hover:grayscale-0 hover:bg-[rgba(7,105,175,0.67)] hover:border-b-2 hover:border-[rgba(7,105,175,0.67)] px-2 duration-500  cursor-pointer'  src="public/cod-logo.svg"  />
-        <img className='w-20  grayscale-100 hover:text-hover hover:grayscale-0 hover:bg-[rgba(7,105,175,0.67)] hover:border-b-2 hover:border-[rgba(7,105,175,0.67)] px-2 duration-500  cursor-pointer'  src="public/THPS3+4_Logo.svg"/>
-        <img className='w-20  grayscale-100 hover:text-hover hover:grayscale-0 hover:bg-[rgba(7,105,175,0.67)] hover:border-b-2 hover:border-[rgba(7,105,175,0.67)] px-2 duration-500  cursor-pointer'  src="public/crash-bandicoot-logo.png" />
+   <img className='w-20 grayscale-100 hover:grayscale-0 hover:bg-[rgba(7,105,175,0.67)] hover:border-b-2 hover:border-[rgba(7,105,175,0.67)] px-2 duration-500  cursor-pointer' src="/activision-logo (1).svg"  />
+        <img className='w-20  grayscale-100 hover:text-hover hover:grayscale-0 hover:bg-[rgba(7,105,175,0.67)] hover:border-b-2 hover:border-[rgba(7,105,175,0.67)] px-2 duration-500  cursor-pointer'  src="/cod-logo.svg"  />
+        <img className='w-20  grayscale-100 hover:text-hover hover:grayscale-0 hover:bg-[rgba(7,105,175,0.67)] hover:border-b-2 hover:border-[rgba(7,105,175,0.67)] px-2 duration-500  cursor-pointer'  src="/THPS3+4_Logo.svg"/>
+        <img className='w-20  grayscale-100 hover:text-hover hover:grayscale-0 hover:bg-[rgba(7,105,175,0.67)] hover:border-b-2 hover:border-[rgba(7,105,175,0.67)] px-2 duration-500  cursor-pointer'  src="/crash-bandicoot-logo.png" />
       </div>
       {/* sm-screen */}
 <div className='flex gap-20 p-5 lg:hidden'>
