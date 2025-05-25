@@ -111,13 +111,13 @@ const games=[
     </div>
     
      <div className='px-10 flex flex-col gap-2 text-center'>
-        <h1  className='font-bold text-[1.5rem]'>Activate Your Future</h1>
+        <h1  className='font-bold text-center text-[1.5rem]'>Activate Your Future</h1>
         <hr />
        <p className='text-[.9rem] lg:text-[.8rem]'>We unite our global player community with epic entertainment, focusing on three core pillars:</p>
-       <p className='text-[.8rem]'> • People - fostering talent and learning opportunities.</p>
-       <p className='text-[.8rem]'>• Innovation - consistently pushing to iterate and evolve.</p>
-       <p className='text-[.8rem]'>• Excellence - delivering high-quality games, consistently year in and year out.</p>
-       <p className='text-[.8rem]'>• Join us at Activision, where inclusivity thrives, and together we shape the future of entertainment for our players. Explore open roles now!</p>
+       <p className='text-[.8rem] text-start'> • People - fostering talent and learning opportunities.</p>
+       <p className='text-[.8rem] text-start'>• Innovation - consistently pushing to iterate and evolve.</p>
+       <p className='text-[.8rem] text-start'>• Excellence - delivering high-quality games, consistently year in and year out.</p>
+       <p className='text-[.8rem] text-start'>• Join us at Activision, where inclusivity thrives, and together we shape the future of entertainment for our players. Explore open roles now!</p>
     </div>
 
    <div className='px-10 flex flex-col gap-2 text-center justify-center items-center'>
