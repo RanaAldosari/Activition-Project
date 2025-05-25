@@ -42,7 +42,7 @@ function Nav() {
       </div>
       {/* sm-screen */}
 <div onClick={nav} className='flex justify-between w-55 items-center lg:hidden text-white hover:cursor-pointer'>
-<h1 className='text-[1.2rem] font-bold' ><CiMenuFries /></h1>
+<h1 className='text-[1.5rem] font-bold' ><CiMenuFries /></h1>
  <div>
    <img className='w-20' src="/activision-logo (1).svg" alt="" />
         </div>
