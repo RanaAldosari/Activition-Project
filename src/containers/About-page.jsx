@@ -1,5 +1,5 @@
 import React from 'react'
-
+import BannerTHome from './BannerT-Home'
 function Aboutpage() {
 
     const leaderTeam=[
@@ -163,6 +163,9 @@ const games=[
     <img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500' src="/logo_treyarch.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="/logo_infinityward.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="/logo_highmoon-studios.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo_beenox.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo_sledgehammer.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="/logo_raven.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/about/studios/logo-toysforbob.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="/logo_atvi-shanghai-studio.png" alt="" /><img className='w-45 relative opacity-35 hover:opacity-100 delay-75 cursor-pointer duration-500 ' src="/logo_demonware.png" alt="" />
     </div>
 </div>
+
+<BannerTHome />
+
 </div>
    </div>
    </>
