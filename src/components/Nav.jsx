@@ -15,11 +15,11 @@ function Nav() {
 
   return (
     <>
- <div className='flex justify-between fixed top-0 left-0 w-full z-50 bg-black/50
+ <div className='flex lg:justify-between fixed top-0 left-0 w-full z-50 bg-black/50
  px-10 py-2 items-center text-white '>
       <div className='flex justify-around gap-8'>
         <div>
-          <img className='w-20' src="/activision-logo (1).svg" alt="" />
+          <img className='hidden lg:flex w-20' src="/activision-logo (1).svg" alt="" />
         </div>
         <div className='hidden lg:flex gap-7 text-[.7rem] font-medium items-center text-gray-400 '>
       <Link to="/">
@@ -41,8 +41,11 @@ function Nav() {
         <button className='rounded text-gray-400 hover:text-white delay-75 cursor-pointer duration-700'>LOGIN</button>
       </div>
       {/* sm-screen */}
-<div onClick={nav} className='block lg:hidden text-white hover:cursor-pointer'>
+<div onClick={nav} className='flex justify-between w-55 items-center lg:hidden text-white hover:cursor-pointer'>
 <h1 ><CiMenuFries /></h1>
+ <div>
+   <img className='w-20' src="/activision-logo (1).svg" alt="" />
+        </div>
 </div>
   <div id="display" className='hidden w-full fixed top-[30px] left-0 bg-black  text-white py-5 px-10 lg:hidden'>
 <div className='flex justify-end'>

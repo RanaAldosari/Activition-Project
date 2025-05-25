@@ -5,32 +5,38 @@ const cards =[
   {
     img: "https://www.activision.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/BO6-SEASON-04-NARRATIVE-TOUT.jpg",
     date: "MAY 20, 2025",
-    title: "Stitch Returns in Season 04"
+    title: "Stitch Returns in Season 04",
+    des:"Following a daring jailbreak conducted by his former adversary, Stitch’s clandestine resurrection is achieved and he returns to the fray with orders to crack the codes needed to uncover the Pantheon moles. Get the backstory on his intense..."
   },
   {
     img:'https://www.activision.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/CODE-MAM-GY6-TOUT.jpg',
     date:"MAY 15,2025",
-    title:'Support C.O.D.E. Military Appreciation Month with USAA'
+    title:'Support C.O.D.E. Military Appreciation Month with USAA',
+    des:"The Call of Duty Endowment Military Appreciation Month 2025 presented by USAA honors veterans with the C.O.D.E. United Force: Tracer Pack and the C.O.D.E. Got Your Six Event"
   },
   {
     img:"https://www.activision.com/content/dam/atvi/tony-hawk/blog/chicago/el-rey-blog/THPS-ELREY-IMAGE-TOUT.jpg",
     date:"MAY 09,2025",
-    title:"Tony Hawk’s Pro Skater 3 + 4: THPS Fest at El Rey Theatre"
+    title:"Tony Hawk’s Pro Skater 3 + 4: THPS Fest at El Rey Theatre",
+    des:"THPS Fest at the El Rey Theater in Los Angeles celebrated the return of Tony Hawk’s Pro Skater 3 + 4 by providing a closer look at some of the levels, skaters, and other new features..."
   },
   {
     img:"https://www.activision.com/content/dam/atvi/callofduty/cod-touchui/blog/body/ricochet/bo6-season-03-ricochet/COD-BO6-RICOCHET-S03R-TOUT-A.webp",
     date:'MAY 07,2025',
-    title:'#TeamRICOCHET Season 03 Recap for Black Ops 6 and Warzone'
+    title:'#TeamRICOCHET Season 03 Recap for Black Ops 6 and Warzone',
+    des:"#TeamRICOCHET Season 03 Recap and Update"
   },
    {
     img:"https://www.activision.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/CODE-MAM-2025-IMAGE-TOUT.webp",
     date:'MAY 01,2025',
-    title:'C.O.D.E. celebrates Military Appreciation Month with USAA'
+    title:'C.O.D.E. celebrates Military Appreciation Month with USAA',
+    des:"The Call of Duty Endowment Military Appreciation Month 2025 presented by USAA honors veterans with the C.O.D.E. United Force: Tracer Pack, the C.O.D.E. Got Your Six Event, Kane Brown High Road Challenge, and more."
   },
    {
     img:"https://www.activision.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/bo6/BO6-S03R-ANNOUNCEMENT-TOUT.webp",
     date:'APR 29,2025',
-    title:'Black Ops 6 Season 03 Reloaded: All the Details'
+    title:'Black Ops 6 Season 03 Reloaded: All the Details',
+    des:"Season 03 Reloaded brings two new Multiplayer maps, Directed Mode for Shattered Veil, and new updates to Verdansk. Get new Loadout items like the Vendetta Perk and the Ladra..."
   },
 ]
 
@@ -65,8 +71,13 @@ function Card() {
 <div className="relative w-full h-[10px] mb-5">
 <div className="absolute w-[85%] h-[1px] bg-gray-400 group-hover:bg-blue-900 duration-300"></div>
 <div className="absolute w-[25%] h-[1.8vh] bg-gray-400 group-hover:bg-blue-900 duration-300 "></div>
+
+<div className='hidden group-hover:flex text-[.6rem] py-3'>
+  <p>{card.des}</p>
 </div>
-<h3 className='flex items-center font-bold text-[.5rem] hover:text-blue-900 cursor-pointer'>READ MORE <IoIosArrowForward className='ml-1' /></h3>
+
+</div>
+<h3 className='flex items-center font-bold text-[.5rem] pt-15 hover:text-blue-900 cursor-pointer'>READ MORE <IoIosArrowForward className='ml-1' /></h3>
 </div>
           </div>
         ))}

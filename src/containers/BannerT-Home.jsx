@@ -3,9 +3,9 @@ import React from 'react'
 function BannerTHome() {
   return (
     <>
-   <div className='relative w-full '>
-<img className='absolute' src="/Screenshot 2025-05-24 184718.png" alt="" />
-<div className='absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/100 h-[100%] lg:h-[300]'></div>
+   <div className='relative w-full lg:h-[310] '>
+<img className='absolute w-full h-auto' src="/Screenshot 2025-05-24 184718.png" alt="" />
+<div className='absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/100 w-full lg:h-full object-cover h-[100%] '></div>
 <div className=' relative flex flex-col lg:justify-between lg:flex-row lg:p-10 text-white '>
 {/* content */}
  <div className='bg-black flex flex-col items-center mt-25  lg:bg-transparent lg:m-0 lg:text-start gap-4 max-w-md text-white'>

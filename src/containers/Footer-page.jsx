@@ -21,7 +21,7 @@ function Footerpage() {
    <>
    <div className='bg-black text-white bg-gradient-to-b from-white/15'>
 
-   <div className=' flex flex-col lg:items-center gap-10 lg:pt-10 lg:flex-row lg:gap-0 justify-around items-center'>
+   <div className=' flex flex-col lg:items-center gap-10 lg:pt-16 lg:flex-row lg:gap-0 justify-around items-center'>
     {/* icons-social */}
     <div>
 <h1>FOLLOW US</h1>
